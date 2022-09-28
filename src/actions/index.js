@@ -1,0 +1,24 @@
+export const increment = (number) => {
+    return {
+        type: "INCREMENT",
+        payload: number,
+    };
+};
+
+export const decrement = () => {
+    return {
+        type: "DECREMENT",
+    };
+};
+
+export const double = () => {
+    return {
+        type: "DOUBLE",
+    };
+};
+
+export const login = () => {
+    return {
+        type: "LOGIN",
+    };
+};
